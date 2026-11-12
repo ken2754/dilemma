@@ -1,0 +1,87 @@
+# ==========================================
+# Dilemma Keyboard Repository .gitignore
+# ==========================================
+
+# ------------------------------------------
+# Operating System Files
+# ------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.trash/
+
+# ------------------------------------------
+# Editors and IDEs
+# ------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Vim / Emacs
+.*.sw[a-p]
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------
+# Build Artifacts & Intermediate Files
+# (Preserves standalone deployment .uf2 files)
+# ------------------------------------------
+.build/
+build/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.d
+*.map
+*.lst
+*.sym
+*.elf
+*.log
+
+# ------------------------------------------
+# Temporary & Backup Files
+# ------------------------------------------
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+tmp/
+temp/
+tobedeleted/
+
+# ------------------------------------------
+# Python & Tool Caches
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+.cache/
